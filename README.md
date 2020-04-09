@@ -1,6 +1,10 @@
 # Salesforce App
 
 Org Manager To connect all your salesforce orgs from one place
+<a href="https://githubsfdeploy.herokuapp.com">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
 
 ## Part 1:
 
