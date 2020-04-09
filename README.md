@@ -27,7 +27,7 @@ Perform requests on your behalf at any time (refresh_token, offline_access)
 
 In Callback URL  add following URL
 ```
-https://<your domain>.salesforce.com/apex/ORG_OAUTH2
+https://<your domain>.force.com/apex/ORG_OAUTH2
 ```
 
 ## Part 3:
@@ -41,7 +41,11 @@ Consumer Key
 Callback URL	
 ```
 Genrate Private Key and enter in the field  Private Key
-
+```
+Blob privateKey= Crypto.generateAesKey(256);
+String cryptoKey =EncodingUtil.base64Encode(privateKey);
+System.debug(cryptoKey);
+```
 
 
 
