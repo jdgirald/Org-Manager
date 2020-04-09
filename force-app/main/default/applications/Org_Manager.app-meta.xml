@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#1C2328</headerColor>
+        <logo>multi_direction512</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>app to track all my logins</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Org Manager</label>
+    <navType>Standard</navType>
+    <tabs>Credential__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>undefined_UtilityBar</utilityBar>
+</CustomApplication>

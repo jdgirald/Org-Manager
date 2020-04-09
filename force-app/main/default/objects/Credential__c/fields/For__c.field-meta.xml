@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>For__c</fullName>
+    <externalId>false</externalId>
+    <label>For</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>true</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>PRODUCT</fullName>
+                <default>false</default>
+                <label>PRODUCT</label>
+            </value>
+            <value>
+                <fullName>TRAILHEAD</fullName>
+                <default>false</default>
+                <label>TRAILHEAD</label>
+            </value>
+            <value>
+                <fullName>POC DEV</fullName>
+                <default>false</default>
+                <label>POC DEV</label>
+            </value>
+            <value>
+                <fullName>PROJECT</fullName>
+                <default>false</default>
+                <label>PROJECT</label>
+            </value>
+            <value>
+                <fullName>GPO</fullName>
+                <default>false</default>
+                <label>GPO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
