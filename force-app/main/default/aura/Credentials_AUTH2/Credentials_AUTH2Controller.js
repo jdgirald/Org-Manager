@@ -18,7 +18,15 @@
                 });
                 eUrl.fire();
                 $A.get("e.force:closeQuickAction").fire();
-            }      
+            }     
+            else{
+                component.find('notifLib').showNotice({
+                    "variant": "error",
+                    "header": "Connected app and Custom settings is not setup.",
+                    "message": "Follow the instruction mention here https://github.com/sonicfurqan/Org-Manager fro creation of a connected app and custom setting details",
+               
+                });
+            }
         });
         $A.enqueueAction(action);
     }
